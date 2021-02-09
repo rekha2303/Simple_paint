@@ -1,0 +1,32 @@
+canvas{
+	border: 1px solid black;
+	margin:0;
+	padding:0;
+	position:relative;
+	left:260px;
+	top:5px;
+}
+h2{
+	text-align: center;
+}
+nav{
+	background-color: aquamarine;
+	width: 100%;
+
+	overflow: auto;
+	margin-bottom: 20px;
+}
+ul{
+
+	display: flex;
+
+	justify-content: space-around;
+}
+li{
+	display: flex;
+	align-items: none;
+}
+img{
+	width: 40px;
+	height: 30px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="paint.js"></script>
+        <Link href="paint.css" rel="styleSheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+ 
+
+    
+</head>
+<body onload="begin()">
+    <div styel="align:center">
+        <h2>Simple Paint App</h3>
+            <nav>
+                <ul>
+                    <li>
+                        <i class="fa fa-arrow-left" style="font-size:33px"></i>
+                    </li>
+                    <li>
+                        <i class="fa fa-arrow-right" style="font-size:33px"></i>
+                    </li>
+                   
+                    <li>
+                        <i class="fa fa-home" style="font-size:33px"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-cross" style="font-size:33px"></i>
+                            </li>
+                        <li>
+                            <input type="search" ><i class="fa fa-search" style="font-size:33px"></i></input>
+                        </li>
+                </ul>
+            </nav>
+    </div>
+     <canvas id="Tricanvas" width="800" height="400"></canvas>
+     
+     <div  style="position:absolute;bottom:10px;left:650px">
+         <button type="button" onclick="Clear()">Clear</button>
+     </div>
+</body>
+</html>
